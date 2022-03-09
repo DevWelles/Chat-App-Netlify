@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./containers/Login";
 import Chat from "./containers/Chat";
 import { connect } from "react-redux";
-import { Container } from "react-bootstrap";
 
 function App({ member }) {
   return (
